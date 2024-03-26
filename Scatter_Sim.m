@@ -67,3 +67,4 @@ title('φ vs. θ for Different Initial Energies');
 legend('show');
 
 hold off; % Release the plot hold for both subplots
+save('angles.mat', "theta","phi")
