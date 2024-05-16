@@ -1,11 +1,11 @@
 % Constants
 h = 4.135667696e-18;      % Planck's constant (keV.s)
 m_e = .511;    % Electron mass (MeV/c^2)
-%c = 3.0e8;          % Speed of light (m/s)
+c = 3.0e8;          % Speed of light (m/s)
 
 % Incident gamma-ray properties
 %E_gamma = 1;    % Energy of incident gamma-ray (MeV)
-lambda_gamma = h * c / E_gamma; % Wavelength of incident gamma-ray (m)
+%lambda_gamma = h * c / E_gamma; % Wavelength of incident gamma-ray (m)
 
 % Initial gamma-ray energies to investigate (MeV)
 E_gammas = [0.511, 1, 3, 5]; %( MeV)
